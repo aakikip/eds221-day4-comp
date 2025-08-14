@@ -119,7 +119,7 @@ for(i in seq_along(time_vec)) {
 #now, building to estimating accross growth rates
 #creating a series of growth rates:
 
-r_seq <- seq(from = 0.2, to = 04, by = 0.01)
+r_seq <- seq(from = 0.2, to = 0.4, by = 0.01)
 
 out_matrix <- matrix(nrow = length(time_vec), ncol = length(r_seq))
 
